@@ -1,0 +1,46 @@
+.wrapper {
+    height: 25%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../imgs/bookBack.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.searchBar {
+    width: 65%;
+    margin-bottom: 20px;
+
+    display: flex;
+}
+
+.filterBar {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.filterBar div {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+.filterBar div span {
+    margin-right: 10px;
+}

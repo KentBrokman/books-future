@@ -1,0 +1,38 @@
+.loader {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booksCount {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.books {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.books a {
+    text-decoration: none;
+}
+
+.moreBooksLoader {
+    margin: 12px 0;
+}

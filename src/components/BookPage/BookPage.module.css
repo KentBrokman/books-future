@@ -1,0 +1,57 @@
+.wrapper {
+    height: 75%;
+
+    display: flex;
+}
+
+.bookCover {
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(243,242,241);
+}
+
+.bookCover img {
+    height: 70%;
+}
+
+.bookInfo {
+    height: 100%;
+    width: 60%;
+
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bookInfo__category {
+    color: rgb(178,178,178);
+
+    margin-bottom: 10px;
+}
+
+.bookInfo__title {
+    font-size: 30px;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+}
+
+.bookInfo__authors {
+    color: rgb(178,178,178);
+    text-decoration: underline;
+
+    margin-bottom: 20px;
+}
+
+.bookInfo__description {
+    padding: 20px;
+    border: 2px solid black;
+
+    overflow: auto;
+}
